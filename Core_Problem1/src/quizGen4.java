@@ -37,6 +37,7 @@ public class quizGen4 {
 		}
 		score = score * 10;
 		displayCompletionMessage(score);
+		score = 0;
 		restartQuiz();
 	}
 	
