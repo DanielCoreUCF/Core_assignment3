@@ -25,7 +25,6 @@ public class quizGen5 {
 		feedbackLvl = 5;
 		feedbackRange = 4;
 		passThreshold = 75;
-		score = 0;
 	}
 	
 	public void quiz() {
@@ -43,6 +42,7 @@ public class quizGen5 {
 		}
 		score = score * 10;
 		displayCompletionMessage(score);
+		score = 0;
 		restartQuiz();
 	}
 	
